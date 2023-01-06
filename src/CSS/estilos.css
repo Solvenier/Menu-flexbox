@@ -1,0 +1,44 @@
+.header{
+    display: flex;
+    padding: 30px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo h1{
+    font-size: 40px;
+    color: black;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.menu li a{
+    padding: 14.5px;
+    font-size: 17.8px;
+    color: black;
+}
+
+.menu li a:hover{
+    background-color: rgba(8, 223, 65, 0.946);
+    color: white;
+}
+
+.menu-cadastre{
+    background-color: rgba(8, 223, 65, 0.946);
+    border-radius: 15px;
+    margin-left: 13px;
+}
+
+.menu-cadastre:hover{
+    transition: 0.3 ease-in-out;
+
+}

@@ -1,0 +1,28 @@
+@media(max-width:520px){
+    .header{
+        flex-direction: column;
+    }
+
+    .logo{
+        align-items: center;
+    }
+
+    .menu{
+        flex-direction: column;
+        padding: 10px;
+        align-items: center;
+    }
+
+    .menu li{
+        padding: 25px 0;
+    }
+
+    .menu li a{
+        font-size: 33px;
+    }
+
+    .menu-cadastre{
+        margin-top: 30px;
+        font: 20px;
+    }
+}
